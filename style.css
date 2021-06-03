@@ -1,0 +1,94 @@
+body {
+  font-family: 'Sora', sans-serif;;
+  background-color:  #ecf0f1 ;
+}
+
+a {
+  text-decoration: none;
+  color: #0a81ab;
+}
+
+a:hover {
+  color: #0c4271;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  color: #1eae98;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.container {
+  width: 640px;
+  margin: 20px auto;
+}
+
+.card-white {
+  background: white;
+  padding: 5px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.btn-discover {
+  display: inline-block;
+  margin: 24px 0;
+  background-color: #0a81ab;
+  padding: 16px 24px;
+  border-radius: 8px;
+  color: white;
+}
+
+.btn-discover:hover {
+  background-color: #0c4271;
+  color: white;
+}
+
+.list-inline {
+  padding-left: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+}
+
+li:last-child > a > i {
+  margin-right: 0;
+}
+
+.list-inline:last-child > a > i {
+  margin-right: 0;
+}
+
+.fab {
+  font-size: 24px;
+  margin-right: 16px;
+}
